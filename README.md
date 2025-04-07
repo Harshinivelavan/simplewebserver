@@ -47,7 +47,6 @@ content='''
 <title> My Web Server</title>
 </head>
 <body>
-<center><h1>TCP/IP PROTOCOLS</h1><br>
 </center>
 <h3>
 1. Application Layer Protocols - HTTP,FTP,DNS<br>
@@ -56,7 +55,7 @@ content='''
 4. Link Layer Protocols - MAC<br>
 </body>
 </html>
-'''
+
 
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
